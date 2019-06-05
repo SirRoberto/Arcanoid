@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+
+<Pane fx:id="MenuScreen" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="870.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.MenuScreenController">
+   <children>
+      <ImageView fitHeight="876.0" fitWidth="1200.0" layoutY="-4.0">
+         <image>
+            <Image url="@Pictures/menu.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="438.0" layoutY="290.0" mnemonicParsing="false" onAction="#startNewGame" text="NEW GAME" textAlignment="CENTER" textOverrun="CLIP">
+         <font>
+            <Font name="Bank Gothic Medium BT" size="36.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="0.5857142857142859" startX="1.0" startY="0.15714285714285714">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="#a750da" offset="0.7388316151202744" />
+                  <Stop color="#c37720" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Button>
+      <Button layoutX="501.0" layoutY="425.0" mnemonicParsing="false" onAction="#quitGame" text="QUIT" textAlignment="CENTER" textOverrun="CLIP">
+         <font>
+            <Font name="Bank Gothic Medium BT" size="36.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="0.5857142857142859" startX="1.0" startY="0.15714285714285714">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="#a750da" offset="0.7388316151202744" />
+                  <Stop color="#c37720" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Button>
+   </children>
+</Pane>

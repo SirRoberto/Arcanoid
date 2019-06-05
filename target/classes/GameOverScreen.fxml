@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="870.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.GameScreenController">
+   <children>
+      <ImageView fitHeight="870.0" fitWidth="1200.0">
+         <image>
+            <Image url="@Pictures/gameOver.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="417.0" layoutY="683.0" mnemonicParsing="false" onAction="#backToMenu" prefHeight="62.0" prefWidth="366.0" text="BACK TO MENU" textAlignment="CENTER" textOverrun="CLIP">
+         <font>
+            <Font name="Bank Gothic Medium BT" size="36.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="0.8428571428571431" startX="1.0" startY="0.3047619047619048">
+               <stops>
+                  <Stop color="#296ce8" />
+                  <Stop color="#fcca17" offset="0.3135442587984347" />
+                  <Stop color="#e47723" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Button>
+   </children>
+</Pane>

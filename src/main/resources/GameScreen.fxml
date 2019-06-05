@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="870.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.GameScreenController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="870.0" layoutX="1000.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <ImageView fitHeight="870.0" fitWidth="800.0" layoutX="200.0">
+         <image>
+            <Image url="@Pictures/Arcanoid_pattern.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0d0d0d" height="870.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <ImageView fitHeight="870.0" fitWidth="841.0" layoutX="183.0">
+         <image>
+            <Image url="@Pictures/Frame.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>
